@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "public"))) // Serve static files
 const server = http.createServer(app)
 const io = new Server(server, {
 	cors: {
-		origin: "https://kodelive.netlify.app/",
+		origin: "*",
 	},
 	maxHttpBufferSize: 1e8,
 	pingTimeout: 60000,
