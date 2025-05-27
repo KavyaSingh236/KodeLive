@@ -73,7 +73,7 @@ function Sidebar() {
                     icon={viewIcons[VIEWS.SETTINGS]}
                 />
                 <a
-                    href="https://trailsbykav.onrender.com/listing"
+                    href="https://nidhi-0610.github.io/TimelyMind/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center rounded transition-colors duration-200 ease-in-out hover:bg-[#3D404A] p-1.5"
