@@ -8,7 +8,7 @@ import { ACTIVITY_STATE } from "@/types/app"
 import { SocketEvent } from "@/types/socket"
 import { VIEWS } from "@/types/view"
 import { IoCodeSlash } from "react-icons/io5"
-import { MdOutlineDraw,MdOutlineCalendarMonth } from "react-icons/md"
+import { MdOutlineDraw} from "react-icons/md"
 import cn from "classnames"
 import { Tooltip } from 'react-tooltip'
 import { useState } from 'react'
@@ -72,18 +72,7 @@ function Sidebar() {
                     viewName={VIEWS.SETTINGS}
                     icon={viewIcons[VIEWS.SETTINGS]}
                 />
-                <a
-                    href="https://nidhi-0610.github.io/TimelyMind/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center rounded transition-colors duration-200 ease-in-out hover:bg-[#3D404A] p-1.5"
-                    data-tooltip-id="timetable-tooltip"
-                    data-tooltip-content="TimleyMind"
-                >
-                    <div className="scale-[1.0]"> {/* slightly scale up the icon */}
-                        <MdOutlineCalendarMonth size={30} />
-                    </div>
-                </a>
+               
 
                 <Tooltip
                     id="timetable-tooltip"
